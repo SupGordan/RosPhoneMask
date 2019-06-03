@@ -50,7 +50,7 @@
                 }
             }
         };
-        xhr.open('POST', 'app/handlers/ajaxCodeImport.php', true);
+        xhr.open('POST', 'App/Handlers/ajaxCodeImport.php', true);
         xhr.send(formData);
     }
 </script>
